@@ -1,0 +1,37 @@
+CREATE DATABASE LIBRARY;
+
+CREATE TABLE BOOK(
+    id SERIAL PRIMARY KEY,
+    title TEXT NOT NULL,
+    isbn VARCHAR(13) NOT NULL,
+    synopsis TEXT NOT NULL,
+    genres TEXT NOT NULL,
+    publicationYear VARCHAR(4) NOT NULL
+);
+
+CREATE TABLE PUBLISHER(
+    id SERIAL PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL,
+    foundationYear VARCHAR(4) NOT NULL
+);
+
+CREATE TABLE AUTHOR(
+    id SERIAL PRIMARY KEY,
+    firstName TEXT NOT NULL,
+    lastname TEXT NOT NULL,
+    country TEXT NOT NULL
+);
+
+CREATE TABLE BOOK_PUBLISHER(
+    FK_book INT,
+    FK_publisher INT,
+    FOREIGN KEY(FK_book) REFERENCES BOOK(id),
+    FOREIGN KEY(FK_publisher) REFERENCES PUBLISHER(id)
+);
+
+CREATE TABLE BOOK_AUTHOR(
+    FK_book INT,
+    FK_author INT,
+    FOREIGN KEY(FK_book) REFERENCES BOOK(id),
+    FOREIGN KEY(FK_author) REFERENCES PUBLISHER(id)
+);
