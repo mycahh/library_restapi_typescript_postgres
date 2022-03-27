@@ -1,6 +1,13 @@
 import express from "express"
+import { bookRoutes } from "./routes"
+
 const app = express()
 
-app.listen(3000, () => {
-    console.log('Server on Port', 3000)
-})
+// middleware
+app.use(express.json())
+app.use(express.urlencoded({ extended: false }))
+
+// Routes
+app.use('/book', bookRoutes)
+
+app.listen(3000)

@@ -1,0 +1,74 @@
+[
+    {
+        "title": "El principito",
+        "author": "Antoine de Saint-Exupéry",
+        "isbn": 9788498381498,
+        "synopsis": "Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión de Saint-Exupery sobre la amistad, el amor, la responsabilidad y el sentido de la vida.",
+        "genre": "Infantil",
+        "publishYear": 2021
+    },
+    {
+        "title": "Cumbre borrascosas",
+        "author": "Emily Bronte",
+        "isbn": 29789500399548,
+        "synopsis":"La poderosa y hosca figura del atormentado Heathcliff domina\" Cumbres Borrascosas\" , novela apasionada y tempestuosa cuya sensibilidad se adelantó a su tiempo.",
+        "genre": "novela",
+        "publishYear": 2013
+    },
+    {
+        "title": "La gaya ciencia",
+        "author": "Friedrich Nietzsche",
+        "isbn": 9788434429819,
+        "synopsis": "Nietzsche se interna con alegría y ligereza en los terrenos pantanosos de la ciencia, la moral y la religión para sacar a la luz su significado arrinconando la seriedad.",
+        "genre": "filosofia",
+        "publishYear": 2019
+    },
+    {
+        "title": "El camino del peregrino",
+        "author": "John Bunyan",
+        "isbn": 9788496079915,
+        "synopsis": "El Camino de Santiago es la vía de peregrinaje más antigua del mundo cristiano, pues ni siquiera Jerusalén o Roma llegarían a consolidar una ruta. A los creyentes que viajaban a los lugares sagrados de Jerusalén se les denominaba palmeros, y los que iban a Roma con el mismo propósito eran llamados romeros. Peregrino era un término que sólo se aplicaba a aquél que se dirigía a Santiago de Compostela.",
+        "genre": "religion",
+        "publishYear": 2005
+    },
+    {
+        "title": "Pensamientos para hombres jóvenes",
+        "author": "John Charles Ryle",
+        "isbn": 9786586145151,
+        "synopsis": "J.C Ryle dan consejos prácticos de como se debe conducir el joven en su vida.",
+        "genre": "religion",
+        "publishYear": 2003
+    },
+    {
+        "title": "Fangirl",
+        "author": "Rainbow Rowell",
+        "isbn": 9788420416601,
+        "synopsis": "Cath y Wren son gemelas idénticas, y hasta hace poco lo hacían absolutamente todo juntas. Ahora están a la universidad. Wren le ha dejado claro que no piensa compartir habitación con ella. Para Wren es una oportunidad única de empezar de cero y conocer gente. Para Cath no es tan fácil. Es terriblemente tímida. Su único mundo es ser fan de Simon Snow, donde ella se siente a gusto, donde siempre sabe exactamente qué decir y donde puede escribir un romance mucho más intenso que cualquier cosa que haya experimentado en la vida real.",
+        "genre": "juvenil",
+        "publishYear": 2021
+    },
+    {
+        "title": "La genealogía de la moral",
+        "author": "Friedrich Nietzsche",
+        "isbn": 9788430939541,
+        "synopsis": "Nietzsche narra en este libro la historia natural de la moral, y piensa la relación entre naturaleza y cultura desde la óptica original de su genealogía. Genealogía es un método con el que se detectan, bajo las ideas o los valores, las tendencias vitales que los originan.",
+        "genre":"filosofia",
+        "publishYear":2003
+    },
+    {
+        "title": "Más alla del bien y del mal",
+        "author": "Friedrich Nietzsche",
+        "isbn": 9788420671741,
+        "synopsis": "Si bien \"Más allá del bien y del mal\" (1886) retoma elementos e ideas de Así habló Zaratustra profundizando en ellos, presenta un tratamiento de los mismos completamente distinto.",
+        "genre": "filosofia",
+        "publishYear": 2012
+    },
+    {
+        "title": "¿Que es el arte?",
+        "author": "Leon Tolstói",
+        "isbn": 9788489715929,
+        "synopsis": "León Tolstoi concibe el arte como medio de comunicación equiparable a la palabra, de la cual se diferencia por el contenido transmitido, pues para él, mientras la palabra transmite pensamientos, el arte transmite sólo sentimientos y emociones.",
+        "genre": "filosofia",
+        "publishYear": 2001
+    }
+]
